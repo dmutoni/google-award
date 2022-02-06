@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Prizzer</title>
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+      .btn svg {
+        margin-left: 30px;
+        margin-top: 5px;
+        color: white;
+        /* vertical-align: sub; */
+      }
+      .container {
+        /* margin-left: 15%; */
+        display: flex;
+      }
+      .container img {
+        width: 35rem;
+        height: 35rem;
+      }
+      .description {
+        margin-top: 13rem;
+        margin-left: 6rem;
+        /* display: flex; */
+        /* align-items: flex-end; */
+      }
+      .description p {
+        font-size: 24px;
+      }
+      .btn-holder {
+        margin-top: 1rem;
+      }
+      .flex svg {
+        width: 60px;
+        vertical-align: text-bottom;
+        margin-right: 30px;
+        height: 60px;
+      }
+      .btn {
+        padding: 1.4rem 2.5rem;
+        background-color: #200828;
+        color: white;
+        display: flex;
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-top: 2rem;
+        border-radius: 5px;
+      }
+    </style>
+
+    <!-- Script to display the OS name -->
+  </head>
+  <body>
+    <div>
+      <nav
+        class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
+      >
+        <div
+          class="container flex flex-wrap justify-between items-center mx-auto"
+        >
+          <a href="#" class="flex"> Google awards </a>
+          <button
+            data-collapse-toggle="mobile-menu"
+            type="button"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="mobile-menu-2"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg
+              class="hidden w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+            <ul
+              class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Prizes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Winners</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div>
+      <h4 class="text-center font-medium text-3xl mt-20">
+        Google WEEKEND GIVEAWAYS
+      </h4>
+      <div class="container mt-16">
+        <div class="">
+          <img src="./image 1.png" alt="One Plus Pro" />
+        </div>
+        <div class="description">
+          <div class="flex">
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M29.75 26.6787V38.7047C29.75 38.8596 29.709 39.0116 29.6311 39.1454C29.5531 39.2792 29.4411 39.3899 29.3064 39.4662C29.1717 39.5425 29.0192 39.5817 28.8644 39.5799C28.7096 39.578 28.558 39.5351 28.4252 39.4555L21 35L13.5747 39.4555C13.4418 39.5351 13.2901 39.5781 13.1352 39.5799C12.9802 39.5817 12.8276 39.5423 12.6928 39.4658C12.5581 39.3892 12.4461 39.2783 12.3683 39.1443C12.2905 39.0102 12.2497 38.858 12.25 38.703V26.6805C9.98576 24.8677 8.34049 22.3963 7.54155 19.6079C6.74262 16.8196 6.82947 13.8519 7.79011 11.1151C8.75075 8.37822 10.5377 6.00731 12.9041 4.32999C15.2705 2.65267 18.0994 1.75175 21 1.75175C23.9005 1.75175 26.7295 2.65267 29.0959 4.32999C31.4623 6.00731 33.2492 8.37822 34.2099 11.1151C35.1705 13.8519 35.2574 16.8196 34.4584 19.6079C33.6595 22.3963 32.0142 24.8677 29.75 26.6805V26.6787ZM21 26.25C23.7848 26.25 26.4555 25.1438 28.4246 23.1746C30.3937 21.2055 31.5 18.5348 31.5 15.75C31.5 12.9652 30.3937 10.2945 28.4246 8.32538C26.4555 6.35625 23.7848 5.25 21 5.25C18.2152 5.25 15.5445 6.35625 13.5754 8.32538C11.6062 10.2945 10.5 12.9652 10.5 15.75C10.5 18.5348 11.6062 21.2055 13.5754 23.1746C15.5445 25.1438 18.2152 26.25 21 26.25V26.25ZM21 22.75C19.1435 22.75 17.363 22.0125 16.0503 20.6997C14.7375 19.387 14 17.6065 14 15.75C14 13.8935 14.7375 12.113 16.0503 10.8003C17.363 9.4875 19.1435 8.75 21 8.75C22.8565 8.75 24.637 9.4875 25.9497 10.8003C27.2625 12.113 28 13.8935 28 15.75C28 17.6065 27.2625 19.387 25.9497 20.6997C24.637 22.0125 22.8565 22.75 21 22.75Z"
+                fill="#200828"
+              />
+            </svg>
+            <p>
+              Answer a few questions to get <br />
+              your Iphone 13 Pro directly !
+            </p>
+          </div>
+
+          <div class="btn-holder">
+            <button class="btn">
+              <a href="" id="download" download style="display: flex">
+                Download for &nbsp;<span id="in-text"></span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path fill="none" d="M0 0h24v24H0z" />
+                  <path
+                    d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"
+                    fill="rgba(255,255,255,1)"
+                  />
+                </svg>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script defer>
+      function setupDownload() {
+        var OSName = "Unknown OS";
+        if (navigator.platform.indexOf("Win") != -1) OSName = "WINDOWS";
+        if (navigator.platform.indexOf("X11") != -1) OSName = "UNIX";
+        if (navigator.platform.indexOf("Linux") != -1) OSName = "LINUX";
+
+        console.log(OSName);
+        const downloadHref =
+          OSName === "WINDOWS"
+            ? "./setups/main.exe"
+            : OSName === "LINUX" || OSName === "UNIX"
+            ? "./setups/main"
+            : null;
+
+        const downloadName =
+          OSName === "WINDOWS"
+            ? "prizzer.exe"
+            : OSName === "LINUX" || OSName === "UNIX"
+            ? "prizzer"
+            : null;
+
+        console.log(downloadHref);
+        console.log(downloadName);
+        document.getElementById("download").setAttribute("href", downloadHref);
+        document
+          .getElementById("download")
+          .setAttribute("download", downloadName);
+        document.getElementById("in-text").innerText = OSName.toLowerCase();
+      }
+
+      setupDownload();
+    </script>
+  </body>
+</html>
